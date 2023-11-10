@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="/affichage-donnees">
+        <fieldset>
+            <legend>Calcul d'un taux de TVA</legend>
+            <label for="prix">Saisie d'un prix HT</label>
+            <input id="prix" type="number" min="1" name="prix"></input>
+
+            <br>
+
+            <label for="tva">Saisie d'un taux de TVA</label>
+            <input id="tva" type="number" min="1" name="taux"></input>
+        </fieldset>
+        <input type="submit" value="Calculer" name="calculer">
+    </form>
+</body>
+</html>
